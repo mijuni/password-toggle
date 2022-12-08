@@ -1,0 +1,28 @@
+*,
+*:before,
+p:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+}
+
+.input-field {
+  font-size: 1rem;
+}
+
+button {
+  font-size: 1em;
+}
